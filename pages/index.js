@@ -24,7 +24,7 @@ export default function Home({exploreData,cardData}) {
       <main className="px-8 mx-auto max-w-7xl sm:px-16">
         
         {/* Small Card Section */}
-        <section className="pt-6">
+        <section className="pt-6 ">
           <h2 className="pb-5 text-4xl font-semibold">Explore Nearby</h2>          
           {/* pull data from server */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
